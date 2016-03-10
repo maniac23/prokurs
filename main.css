@@ -1,0 +1,195 @@
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-family-color: #333;
+  font-weight: normal;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialised;
+}
+
+h1 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 56px;
+  font-weight: bold;
+  font-family: CleanvertisingLight, san-serif;
+  margin: 0;
+}
+
+section {
+  padding: 58px 0 68px;
+}
+
+section.s_dark h2, section.s_dark h3, section.s_dark p {
+  color: #fff;
+}
+
+section h2 {
+  color: #003469;
+  font-size: 50px;
+  line-height: 56px;
+  margin-bottom: 50px;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  min-height: 640px;
+  background-image: url(../img/top_bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "RobotoBold", sans-serif;
+  font-weight: bold;
+}
+
+.top_phone {
+  text-align: right;
+}
+
+.top_phone .wrapper .tab {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.top_phone .wrapper .active {
+  text-decoration: underline;
+}
+
+.top_phone .tab_item {
+  font-size: 34px;
+  font-family: "RobotoBold", sans-serif;
+}
+
+.tab_item {
+  display: none;
+}
+
+.tab_item:first-child {
+  display: block;
+}
+
+.top_header {
+  margin-top: 70px;
+}
+
+.top_header h2 {
+  margin: 10px 0 0;
+  font-family: "CleanvertisingLight", san-serif;
+  font-size: 36px;
+}
+
+.tabs_header {
+  margin-top: 50px;
+}
+
+.tabs_header ul, .tabs_header li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs_header li {
+  padding-left: 40px;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.tabs_header i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 26px;
+  color: #6f6a67;
+}
+
+.tabs_header .tabs .tab {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 12px 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  float: left;
+  font-family: "RobotoBold", sans-serif;
+  font-weight: bold;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.tabs_header .tabs .tab.active {
+  background-color: rgba(255, 255, 255, 0.45);
+  color: #000;
+}
+
+.tabs_header .tab_content {
+  background-color: rgba(255, 255, 255, 0.45);
+  padding: 12px 18px 16px;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "RobotoBold", sans-serif;
+  font-size: 18px;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 46px;
+  line-height: 46px;
+  background-color: #000;
+  padding: 0 32px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.button_wrap {
+  text-align: right;
+}
+
+a.button {
+  color: #fff;
+  text-decoration: none;
+  font-family: "RobotoBold", sans-serif;
+  font-size: 16px;
+}
+
+a.button.btn_red {
+  background-color: #9b1818;
+}
+
+a.button.btn_green {
+  background-color: #67bc5c;
+}
+
+a.button.btn_white {
+  background-color: #fff;
+  color: #000;
+}
+
+.s_tizers {
+  background-color: #c6d8ee;
+  background-image: -webkit-linear-gradient(#c6d8ee, #e8eff7);
+  background-image: linear-gradient(#c6d8ee, #e8eff7, , , , , , , , );
+}
